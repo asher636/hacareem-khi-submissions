@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>719582194359-l4s9h44iuqnir74s698b4o2u0acn2m1r.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.719582194359-l4s9h44iuqnir74s698b4o2u0acn2m1r</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD08qHjlTLcO7Zt-FHHwE0p9WY_PA6_-f4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>719582194359</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.dsu.HaCareem-Dexterous</string>
+	<key>PROJECT_ID</key>
+	<string>careem-ease</string>
+	<key>STORAGE_BUCKET</key>
+	<string>careem-ease.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:719582194359:ios:7df8a94fd8811d8e</string>
+	<key>DATABASE_URL</key>
+	<string>https://careem-ease.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+framework module Pods_HaCareem_Dexterous {
+  umbrella header "Pods-HaCareem_Dexterous-umbrella.h"
+
+  export *
+  module * { export * }
+}

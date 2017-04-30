@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD1918351EB55AC100629DC8 /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1918341EB55AC100629DC8 /* Booking.swift */; };
+		BD1918381EB55AC900629DC8 /* PriceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1918361EB55AC900629DC8 /* PriceDetail.swift */; };
+		BD1918391EB55AC900629DC8 /* PickupDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1918371EB55AC900629DC8 /* PickupDetails.swift */; };
+		BD19183E1EB576EB00629DC8 /* Pulsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19183D1EB576EB00629DC8 /* Pulsing.swift */; };
+		BD1918401EB57CAD00629DC8 /* VehicleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19183F1EB57CAD00629DC8 /* VehicleDetail.swift */; };
+		BD1918461EB57CCE00629DC8 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1918411EB57CCE00629DC8 /* Customer.swift */; };
+		BD1918471EB57CCE00629DC8 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1918421EB57CCE00629DC8 /* Driver.swift */; };
+		BD1918481EB57CCE00629DC8 /* DriverDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1918431EB57CCE00629DC8 /* DriverDetails.swift */; };
+		BD1918491EB57CCE00629DC8 /* DriversLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1918441EB57CCE00629DC8 /* DriversLocation.swift */; };
+		BD19184A1EB57CCE00629DC8 /* TrackBooking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1918451EB57CCE00629DC8 /* TrackBooking.swift */; };
+		BD19184C1EB57F0D00629DC8 /* PickUpLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19184B1EB57F0D00629DC8 /* PickUpLocationViewController.swift */; };
+		BD19184E1EB590E200629DC8 /* BookingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19184D1EB590E200629DC8 /* BookingDetailViewController.swift */; };
+		BD8EAFFE1EB557560012B7F4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8EAFFD1EB557560012B7F4 /* Constants.swift */; };
+		BDB22F6B1EB4873F00FD4361 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB22F6A1EB4873F00FD4361 /* AppDelegate.swift */; };
+		BDB22F6D1EB4873F00FD4361 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB22F6C1EB4873F00FD4361 /* InitialViewController.swift */; };
+		BDB22F731EB4873F00FD4361 /* HaCareem_Dexterous.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDB22F711EB4873F00FD4361 /* HaCareem_Dexterous.xcdatamodeld */; };
+		BDB22F751EB4873F00FD4361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB22F741EB4873F00FD4361 /* Assets.xcassets */; };
+		BDB22F781EB4873F00FD4361 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB22F761EB4873F00FD4361 /* LaunchScreen.storyboard */; };
+		BDB22F881EB4B24D00FD4361 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDB22F871EB4B24D00FD4361 /* GoogleService-Info.plist */; };
+		BDB22F8B1EB4B32B00FD4361 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB22F891EB4B32B00FD4361 /* DataService.swift */; };
+		BDB22F901EB5208900FD4361 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB22F8F1EB5208900FD4361 /* Product.swift */; };
+		BDB22F941EB52E8800FD4361 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB22F931EB52E8800FD4361 /* Main.storyboard */; };
+		BDB22F991EB52E9F00FD4361 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB22F951EB52E9F00FD4361 /* RoundButton.swift */; };
+		BDB22F9A1EB52E9F00FD4361 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB22F961EB52E9F00FD4361 /* RoundImageView.swift */; };
+		BDB22F9B1EB52E9F00FD4361 /* RoundSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB22F971EB52E9F00FD4361 /* RoundSegmentControl.swift */; };
+		BDB22F9C1EB52E9F00FD4361 /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB22F981EB52E9F00FD4361 /* RoundTextField.swift */; };
+		F7954139BCE1523D5AB0EBA9 /* Pods_HaCareem_Dexterous.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87D2AC7E782F84736AB9C1E /* Pods_HaCareem_Dexterous.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35F384466A615BD45DE14EA9 /* Pods-HaCareem_Dexterous.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaCareem_Dexterous.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HaCareem_Dexterous/Pods-HaCareem_Dexterous.debug.xcconfig"; sourceTree = "<group>"; };
+		B87D2AC7E782F84736AB9C1E /* Pods_HaCareem_Dexterous.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HaCareem_Dexterous.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1918341EB55AC100629DC8 /* Booking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
+		BD1918361EB55AC900629DC8 /* PriceDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceDetail.swift; sourceTree = "<group>"; };
+		BD1918371EB55AC900629DC8 /* PickupDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickupDetails.swift; sourceTree = "<group>"; };
+		BD19183D1EB576EB00629DC8 /* Pulsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pulsing.swift; sourceTree = "<group>"; };
+		BD19183F1EB57CAD00629DC8 /* VehicleDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleDetail.swift; sourceTree = "<group>"; };
+		BD1918411EB57CCE00629DC8 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		BD1918421EB57CCE00629DC8 /* Driver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+		BD1918431EB57CCE00629DC8 /* DriverDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverDetails.swift; sourceTree = "<group>"; };
+		BD1918441EB57CCE00629DC8 /* DriversLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriversLocation.swift; sourceTree = "<group>"; };
+		BD1918451EB57CCE00629DC8 /* TrackBooking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackBooking.swift; sourceTree = "<group>"; };
+		BD19184B1EB57F0D00629DC8 /* PickUpLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickUpLocationViewController.swift; sourceTree = "<group>"; };
+		BD19184D1EB590E200629DC8 /* BookingDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingDetailViewController.swift; sourceTree = "<group>"; };
+		BD8EAFFD1EB557560012B7F4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BDB22F671EB4873F00FD4361 /* HaCareem_Dexterous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaCareem_Dexterous.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB22F6A1EB4873F00FD4361 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDB22F6C1EB4873F00FD4361 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		BDB22F721EB4873F00FD4361 /* HaCareem_Dexterous.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HaCareem_Dexterous.xcdatamodel; sourceTree = "<group>"; };
+		BDB22F741EB4873F00FD4361 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDB22F771EB4873F00FD4361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDB22F791EB4873F00FD4361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB22F871EB4B24D00FD4361 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BDB22F891EB4B32B00FD4361 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		BDB22F8F1EB5208900FD4361 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		BDB22F931EB52E8800FD4361 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BDB22F951EB52E9F00FD4361 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		BDB22F961EB52E9F00FD4361 /* RoundImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
+		BDB22F971EB52E9F00FD4361 /* RoundSegmentControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundSegmentControl.swift; sourceTree = "<group>"; };
+		BDB22F981EB52E9F00FD4361 /* RoundTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
+		CA0D339F7EA4A1598AB5614C /* Pods-HaCareem_Dexterous.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HaCareem_Dexterous.release.xcconfig"; path = "Pods/Target Support Files/Pods-HaCareem_Dexterous/Pods-HaCareem_Dexterous.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDB22F641EB4873F00FD4361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7954139BCE1523D5AB0EBA9 /* Pods_HaCareem_Dexterous.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6946AC9691DF08C4E5820DE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B87D2AC7E782F84736AB9C1E /* Pods_HaCareem_Dexterous.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85AD34EFCBD4DB9232BD9A42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35F384466A615BD45DE14EA9 /* Pods-HaCareem_Dexterous.debug.xcconfig */,
+				CA0D339F7EA4A1598AB5614C /* Pods-HaCareem_Dexterous.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD19183C1EB576D600629DC8 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				BD19183D1EB576EB00629DC8 /* Pulsing.swift */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		BDB22F5E1EB4873F00FD4361 = {
+			isa = PBXGroup;
+			children = (
+				BDB22F691EB4873F00FD4361 /* HaCareem_Dexterous */,
+				BDB22F681EB4873F00FD4361 /* Products */,
+				85AD34EFCBD4DB9232BD9A42 /* Pods */,
+				6946AC9691DF08C4E5820DE1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDB22F681EB4873F00FD4361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDB22F671EB4873F00FD4361 /* HaCareem_Dexterous.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDB22F691EB4873F00FD4361 /* HaCareem_Dexterous */ = {
+			isa = PBXGroup;
+			children = (
+				BDB22F931EB52E8800FD4361 /* Main.storyboard */,
+				BD19183C1EB576D600629DC8 /* Animation */,
+				BDB22F841EB4879900FD4361 /* Controllers */,
+				BDB22F851EB4879E00FD4361 /* Services */,
+				BDB22F831EB4878500FD4361 /* Models */,
+				BDB22F821EB4878100FD4361 /* Views */,
+				BDB22F861EB487A700FD4361 /* Supporting Files */,
+			);
+			path = HaCareem_Dexterous;
+			sourceTree = "<group>";
+		};
+		BDB22F821EB4878100FD4361 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BDB22F951EB52E9F00FD4361 /* RoundButton.swift */,
+				BDB22F961EB52E9F00FD4361 /* RoundImageView.swift */,
+				BDB22F971EB52E9F00FD4361 /* RoundSegmentControl.swift */,
+				BDB22F981EB52E9F00FD4361 /* RoundTextField.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BDB22F831EB4878500FD4361 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BD1918341EB55AC100629DC8 /* Booking.swift */,
+				BDB22F8F1EB5208900FD4361 /* Product.swift */,
+				BD1918361EB55AC900629DC8 /* PriceDetail.swift */,
+				BD1918371EB55AC900629DC8 /* PickupDetails.swift */,
+				BD1918411EB57CCE00629DC8 /* Customer.swift */,
+				BD1918421EB57CCE00629DC8 /* Driver.swift */,
+				BD1918431EB57CCE00629DC8 /* DriverDetails.swift */,
+				BD1918441EB57CCE00629DC8 /* DriversLocation.swift */,
+				BD1918451EB57CCE00629DC8 /* TrackBooking.swift */,
+				BD19183F1EB57CAD00629DC8 /* VehicleDetail.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BDB22F841EB4879900FD4361 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BD19184D1EB590E200629DC8 /* BookingDetailViewController.swift */,
+				BDB22F6C1EB4873F00FD4361 /* InitialViewController.swift */,
+				BD19184B1EB57F0D00629DC8 /* PickUpLocationViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BDB22F851EB4879E00FD4361 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BDB22F891EB4B32B00FD4361 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		BDB22F861EB487A700FD4361 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDB22F6A1EB4873F00FD4361 /* AppDelegate.swift */,
+				BDB22F871EB4B24D00FD4361 /* GoogleService-Info.plist */,
+				BDB22F741EB4873F00FD4361 /* Assets.xcassets */,
+				BDB22F761EB4873F00FD4361 /* LaunchScreen.storyboard */,
+				BDB22F791EB4873F00FD4361 /* Info.plist */,
+				BDB22F711EB4873F00FD4361 /* HaCareem_Dexterous.xcdatamodeld */,
+				BD8EAFFD1EB557560012B7F4 /* Constants.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDB22F661EB4873F00FD4361 /* HaCareem_Dexterous */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB22F7C1EB4873F00FD4361 /* Build configuration list for PBXNativeTarget "HaCareem_Dexterous" */;
+			buildPhases = (
+				768AFD5AEF4D595B06660890 /* [CP] Check Pods Manifest.lock */,
+				BDB22F631EB4873F00FD4361 /* Sources */,
+				BDB22F641EB4873F00FD4361 /* Frameworks */,
+				BDB22F651EB4873F00FD4361 /* Resources */,
+				0C5749DABF6647531478F549 /* [CP] Embed Pods Frameworks */,
+				834D08772B3BCE8667793F16 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaCareem_Dexterous;
+			productName = HaCareem_Dexterous;
+			productReference = BDB22F671EB4873F00FD4361 /* HaCareem_Dexterous.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDB22F5F1EB4873F00FD4361 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Asher Ahsan";
+				TargetAttributes = {
+					BDB22F661EB4873F00FD4361 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = JEWZ4282UX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BDB22F621EB4873F00FD4361 /* Build configuration list for PBXProject "HaCareem_Dexterous" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDB22F5E1EB4873F00FD4361;
+			productRefGroup = BDB22F681EB4873F00FD4361 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDB22F661EB4873F00FD4361 /* HaCareem_Dexterous */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDB22F651EB4873F00FD4361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB22F781EB4873F00FD4361 /* LaunchScreen.storyboard in Resources */,
+				BDB22F881EB4B24D00FD4361 /* GoogleService-Info.plist in Resources */,
+				BDB22F751EB4873F00FD4361 /* Assets.xcassets in Resources */,
+				BDB22F941EB52E8800FD4361 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C5749DABF6647531478F549 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HaCareem_Dexterous/Pods-HaCareem_Dexterous-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		768AFD5AEF4D595B06660890 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		834D08772B3BCE8667793F16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HaCareem_Dexterous/Pods-HaCareem_Dexterous-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDB22F631EB4873F00FD4361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD19184C1EB57F0D00629DC8 /* PickUpLocationViewController.swift in Sources */,
+				BD19183E1EB576EB00629DC8 /* Pulsing.swift in Sources */,
+				BDB22F9B1EB52E9F00FD4361 /* RoundSegmentControl.swift in Sources */,
+				BD1918351EB55AC100629DC8 /* Booking.swift in Sources */,
+				BD1918381EB55AC900629DC8 /* PriceDetail.swift in Sources */,
+				BDB22F991EB52E9F00FD4361 /* RoundButton.swift in Sources */,
+				BDB22F731EB4873F00FD4361 /* HaCareem_Dexterous.xcdatamodeld in Sources */,
+				BD1918481EB57CCE00629DC8 /* DriverDetails.swift in Sources */,
+				BDB22F6D1EB4873F00FD4361 /* InitialViewController.swift in Sources */,
+				BDB22F901EB5208900FD4361 /* Product.swift in Sources */,
+				BD1918401EB57CAD00629DC8 /* VehicleDetail.swift in Sources */,
+				BD8EAFFE1EB557560012B7F4 /* Constants.swift in Sources */,
+				BD1918471EB57CCE00629DC8 /* Driver.swift in Sources */,
+				BDB22F9A1EB52E9F00FD4361 /* RoundImageView.swift in Sources */,
+				BD1918461EB57CCE00629DC8 /* Customer.swift in Sources */,
+				BDB22F6B1EB4873F00FD4361 /* AppDelegate.swift in Sources */,
+				BD19184A1EB57CCE00629DC8 /* TrackBooking.swift in Sources */,
+				BD1918391EB55AC900629DC8 /* PickupDetails.swift in Sources */,
+				BDB22F9C1EB52E9F00FD4361 /* RoundTextField.swift in Sources */,
+				BDB22F8B1EB4B32B00FD4361 /* DataService.swift in Sources */,
+				BD1918491EB57CCE00629DC8 /* DriversLocation.swift in Sources */,
+				BD19184E1EB590E200629DC8 /* BookingDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDB22F761EB4873F00FD4361 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB22F771EB4873F00FD4361 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDB22F7A1EB4873F00FD4361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDB22F7B1EB4873F00FD4361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDB22F7D1EB4873F00FD4361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35F384466A615BD45DE14EA9 /* Pods-HaCareem_Dexterous.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JEWZ4282UX;
+				INFOPLIST_FILE = HaCareem_Dexterous/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dsu.HaCareem-Dexterous";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDB22F7E1EB4873F00FD4361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA0D339F7EA4A1598AB5614C /* Pods-HaCareem_Dexterous.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JEWZ4282UX;
+				INFOPLIST_FILE = HaCareem_Dexterous/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dsu.HaCareem-Dexterous";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDB22F621EB4873F00FD4361 /* Build configuration list for PBXProject "HaCareem_Dexterous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB22F7A1EB4873F00FD4361 /* Debug */,
+				BDB22F7B1EB4873F00FD4361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB22F7C1EB4873F00FD4361 /* Build configuration list for PBXNativeTarget "HaCareem_Dexterous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB22F7D1EB4873F00FD4361 /* Debug */,
+				BDB22F7E1EB4873F00FD4361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDB22F711EB4873F00FD4361 /* HaCareem_Dexterous.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDB22F721EB4873F00FD4361 /* HaCareem_Dexterous.xcdatamodel */,
+			);
+			currentVersion = BDB22F721EB4873F00FD4361 /* HaCareem_Dexterous.xcdatamodel */;
+			path = HaCareem_Dexterous.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDB22F5F1EB4873F00FD4361 /* Project object */;
+}
